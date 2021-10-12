@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+.game {
+  margin: auto;
+  width: 100%;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  align: "center";
+  width: 100px;
+  height: 30px;
+  margin-left: 130px;
+}
