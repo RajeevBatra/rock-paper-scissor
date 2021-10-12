@@ -6,10 +6,10 @@ for (let i = 0; i < document.querySelectorAll("button").length; i++) {
     var pInput = this.innerHTML;
 
     const cOptions = ["Rock","Paper","Scissor"];
-    const cInput = cOptions.[Math.floor(Math.random() * 3)];
+    const cInput = cOptions[Math.floor(Math.random() * 3)];
     
-    // console.log(cInput);
-    // console.log(pInput);
+    console.log(cInput);
+    console.log(pInput);
 
     compareInputs(pInput,cInput);
     updateScore();
